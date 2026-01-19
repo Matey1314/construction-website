@@ -17,7 +17,7 @@ const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
-        alert('Thank you for your message! We will get back to you soon.');
+        alert('Благодарим ви за вашето съобщение! Скоро ще се свържем с вас.');
         this.reset();
     });
 }
