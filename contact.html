@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPro - Контакти</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="home.html" style="color: white; text-decoration: none;">BuildPro</a></h1>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li><a href="home.html">Начало</a></li>
+                    <li><a href="about.html">За Нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="gallery.html">Галерия</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Title Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Свържете се с Нас</h1>
+                <p>Ние сме тук, за да отговорим на всички ваши въпроси</p>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>бул. "Александър Батенберг" 49</p>
+                        <p>1000 София, България</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Телефон</h3>
+                        <p>+359 2 123 4567</p>
+                        <p>+359 88 123 4567</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>info@buildpro.bg</p>
+                        <p>projects@buildpro.bg</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🕒</div>
+                        <h3>Работни Часове</h3>
+                        <p>Пн-Пт: 08:00 - 18:00</p>
+                        <p>Сб-Нд: По договореност</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Изпратете ни Съобщение</h2>
+                <p class="contact-intro">Попълнете формата по-долу и ще се свържем с вас в най-скоро време</p>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Вашето Име *</label>
+                            <input type="text" id="name" placeholder="Вашето Име" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" placeholder="Вашият Телефон" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" placeholder="Вашия Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Тема *</label>
+                            <input type="text" id="subject" placeholder="Тема на Съобщението" required>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Съобщение *</label>
+                        <textarea id="message" placeholder="Вашето Съобщение" rows="7" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Изпрати Съобщение</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Map Section (Placeholder) -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Намерете Нас</h2>
+                <div class="map-placeholder">
+                    <p>🗺️ Карта на местоположението</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">бул. "Александър Батенберг" 49, 1000 София</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 BuildPro Construction Company. All rights reserved.</p>
+                <nav class="footer-links">
+                    <a href="home.html">Начало</a>
+                    <a href="about.html">За Нас</a>
+                    <a href="services.html">Услуги</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
